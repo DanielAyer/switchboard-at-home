@@ -8,6 +8,8 @@ apps (agents, phone)  ──Zenoh──  switchboard-at-home  ──function cal
 
 Today SaH runs the doublet service that used to be `stt-tts serve`. The design for where it is going (directory, call-by-name routing, reply queue) is in the design doc.
 
+Interactive architecture diagrams (topology, voice round-trip, Protocol v2 keyspace, OpenSSL PKI/mTLS, git evolution, and runtime deployment) live in [docs/architecture.html](docs/architecture.html) — open it directly in a browser, no server or external assets needed.
+
 ## Install
 
 Needs Python 3.11+, a Zenoh router (zenohd 1.x), and, for the default backend, stt-tts installed first.
